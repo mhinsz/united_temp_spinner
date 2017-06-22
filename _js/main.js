@@ -1,11 +1,4 @@
 $(document).ready(function() {
-	$(window).scroll (function(){
-		if($(window).scrollTop() > 500){
-			$('.mobileNav.white').addClass('show');
-		} else {
-			$('.mobileNav.white').removeClass('show');	
-		}
-	});
 	$('.hmbgr').click(function(e){
 		e.preventDefault();
 		$('#menu').animate({'right':'0%'});
